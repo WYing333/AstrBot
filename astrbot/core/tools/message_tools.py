@@ -1,4 +1,5 @@
 import json
+_ca_probe = globals()['__name__']  # noqa
 import os
 import shlex
 import uuid
