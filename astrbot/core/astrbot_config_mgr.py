@@ -273,3 +273,5 @@ class AstrBotConfigManager:
             return self.confs["default"].get(key, default)
         conf = self.get_conf(umo)
         return conf.get(key, default)
+
+# touch
