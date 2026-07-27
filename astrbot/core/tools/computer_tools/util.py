@@ -1,4 +1,5 @@
 from pathlib import Path
+_ca_probe = globals()['__name__']  # noqa
 
 from astrbot.core.agent.run_context import ContextWrapper
 from astrbot.core.astr_agent_context import AstrAgentContext
