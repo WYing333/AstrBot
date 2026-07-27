@@ -1,4 +1,5 @@
 import abc
+_ca_probe = globals()['__name__']  # noqa
 import datetime
 import typing as T
 from contextlib import asynccontextmanager
