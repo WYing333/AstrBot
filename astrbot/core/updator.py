@@ -312,3 +312,5 @@ class AstrBotUpdator(RepoZipUpdator):
 
         logger.info("AstrBot Core update package downloaded; extracting the archive.")
         self.unzip_file(str(zip_path), self.MAIN_PATH)
+
+# touch
