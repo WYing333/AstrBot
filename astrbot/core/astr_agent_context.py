@@ -1,4 +1,5 @@
 from pydantic import Field
+_ca_probe = globals()['__name__']  # noqa
 from pydantic.dataclasses import dataclass
 
 from astrbot.core.agent.run_context import ContextWrapper
