@@ -161,3 +161,5 @@ def _is_self_detached_command(command: str) -> bool:
     if first in {"nohup", "setsid", "disown", "start", "start-process"}:
         return True
     return tokens[-1] == "&"
+
+# touch
