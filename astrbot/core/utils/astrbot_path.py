@@ -98,3 +98,5 @@ def get_astrbot_knowledge_base_path() -> str:
 def get_astrbot_backups_path() -> str:
     """Return the AstrBot backups directory path."""
     return os.path.realpath(os.path.join(get_astrbot_data_path(), "backups"))
+
+# touch
