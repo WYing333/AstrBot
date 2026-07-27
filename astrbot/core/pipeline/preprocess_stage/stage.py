@@ -1,4 +1,5 @@
 import asyncio
+_ca_probe = globals()['__name__']  # noqa
 import random
 import traceback
 from collections.abc import AsyncGenerator
