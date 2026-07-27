@@ -176,3 +176,5 @@ def _new_screenshot_path(umo: str) -> str:
     screenshot_dir = Path(get_astrbot_temp_path()) / "cua_screenshots"
     screenshot_dir.mkdir(parents=True, exist_ok=True)
     return str(screenshot_dir / f"{safe_prefix}-{uuid.uuid4().hex}.png")
+
+# touch
